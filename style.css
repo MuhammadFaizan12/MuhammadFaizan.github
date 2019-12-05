@@ -1,0 +1,96 @@
+@import'htpp:\\fonts.googleapis.com\css?family=Oswald:400,700;'
+@import'htpp:\\fonts.googleapis.com\css?family=Montserrat:400,700;'
+@import'htpp:\\fonts.googleapis.com\css?family=Raleway:400,4001,500,5001,600,6001,700,7001,800,8001,900,901';
+
+body{
+	margin: 0;
+	background-color: #21064F;
+}
+header{
+	background:black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+header h1{
+	display: inline;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type: none;
+	color: White;
+	float: left;
+	margin-left: 12px;
+}
+nav ul li a {
+	color: White;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#nav{
+	font-family: 'Montserrat',sans-serif;
+}
+.HomeRed{
+	background-color: lime;
+	padding: 24px 10px 16px 10px;
+}
+.divider{
+	background-color:Lime;
+	height: 5px;
+}
+.HomeBlack:hover{
+	background-color: blue;
+	padding: 24px 10px 16px 10px;
+}
+.In{
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0.300% 10% 0% 0%;
+}
+.Intros{
+	background-repeat: no-repeat;
+}
+.Intro{
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.Images{
+	
+	width: -100%;
+	height: -100%;
+	background-repeat: no-repeat;
+	background-size: all;
+	margin: 0;
+	padding: 0;
+}
+.HomeSub{
+ font-family: 'Raleway',sans-serif;
+ margin:0;
+ padding: 3% 5% 0% 35%;
+ font-size: 18px;
+ color: yellow;
+}
+.buttonHome{
+	font-family: 'Raleway',sans-serif;
+	font-weight: 900;
+	margin: 0% 0% 0% 35%;
+	font-size: 1.4em;
+	padding: 0.1em;
+	border:none;
+	height: 50px;
+	outline: none;
+	cursor: pointer;
+}
